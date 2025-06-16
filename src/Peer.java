@@ -132,7 +132,7 @@ public class Peer implements IMensagem {
                     // Item 3
                     UnicastRemoteObject.unexportObject(this, true);
                     this.servidorRegistro.unbind(meuNomePeer);
-                    System.out.println("Peer " + meuNomePeer + " desregistrado.");
+                    System.out.println(meuNomePeer + " desregistrado.");
                 } catch (Exception ex) {
                     System.err.println("Erro ao desconectar peer: " + ex.getMessage());
                 }

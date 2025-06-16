@@ -28,11 +28,12 @@ public class ClienteRMI {
                     for (int i = 0; i < nomesAtivos.length; i++) {
                         System.out.printf("  %d) %s%n", i + 1, nomesAtivos[i]);
                     }
-                    //Item 4
+                    // Item 4
                     System.out.print("Escolha o número do peer para conectar (ou 'r' para re-listar, 'x' para sair): ");
                     String entrada = leitura.nextLine().trim();
                     if (entrada.equalsIgnoreCase("x")) {
                         System.out.println("Saindo do cliente.");
+                        System.exit(0);
                         return;
                     }
                     if (entrada.equalsIgnoreCase("r")) {

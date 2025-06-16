@@ -10082,3 +10082,5 @@ H� mais coisas entre o VCC e o TERRA do que sup�e nossa v� filosofia
 
 %
 bla
+%
+PORPETA
