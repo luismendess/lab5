@@ -1,13 +1,7 @@
-
-/**
- * Lab05: Sistema P2P
- * 
- * Autor: Lucio A. Rocha
- * Ultima atualizacao: 22/05/2023
- * 
- * Referencias: 
- * https://docs.oracle.com/javase/tutorial/essential/io
- * http://fortunes.cat-v.org/
+/*
+ * Código desenvolvido por:
+ * Nome: Iago Macarini
+ * Nome: Luis Henrique Mendes
  */
 
 import java.io.*;
